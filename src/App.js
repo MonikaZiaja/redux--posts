@@ -4,9 +4,7 @@ import './App.css';
 import Posts from './components/Posts'
 import PostsForm from './components/PostsForm'
 import { Provider } from 'react-redux'
-import { createStore, applyMiddleware} from 'redux'
-
-const store = createStore(() => [],{}, applyMiddleware())
+import store from './store'
 
 class App extends Component {
  
